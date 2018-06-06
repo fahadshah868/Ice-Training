@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sample,,,2018-06-05 17:06:36,2018-06-05 17:06:38,1.968s,FAILED
+,,,,,,
+Test Cases/LaunchingApp/LaunchApp,,,2018-06-05 17:06:37,2018-06-05 17:06:38,0.650s,FAILED
+startApplication,,,2018-06-05 17:06:37,2018-06-05 17:06:38,0.225s,FAILED
+,,,,,,
+Test Cases/CompetencyTraining/VisitCompetencyTraining,,,2018-06-05 17:06:38,2018-06-05 17:06:38,0.814s,FAILED
+tap,,,2018-06-05 17:06:38,2018-06-05 17:06:38,0.281s,PASSED
