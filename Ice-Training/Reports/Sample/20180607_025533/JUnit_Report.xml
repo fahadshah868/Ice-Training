@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sample" time="57" tests="2" failures="0" errors="0">
+   <testsuite name="Sample" tests="2" failures="0" errors="0" time="57" timestamp="2018-06-07 02:55:34" hostname="itcity - DESKTOP-3AG49P4" id="Test Suites/Sample">
+      <properties>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Sample\\20180607_025533"/>
+         <property name="logFiles" value="F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Sample\\20180607_025533\\appium.log, F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Sample\\20180607_025533\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="itcity - DESKTOP-3AG49P4"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="SM-J110H"/>
+         <property name="hostAddress" value="192.168.3.109"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="11015a1136d0b24a"/>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="deviceOSVersion" value="4.4.4"/>
+      </properties>
+      <testcase name="Test Cases/LaunchingApp/LaunchApp" classname="Test Cases/LaunchingApp/LaunchApp" status="PASSED">
+         <system-out><![CDATA[2018-06-07 02:55:35 - [TEST_CASE][PASSED] - Test Cases/LaunchingApp/LaunchApp: Test Cases/LaunchingApp/LaunchApp
+
+2018-06-07 02:55:35 - [TEST_STEP][PASSED] - startApplication: Started app at: 'F:\QA_Automation\Builds\ice_training_app_local_310518.apk'
+
+2018-06-07 02:55:57 - [MESSAGE][PASSED] - Started app at: 'F:\QA_Automation\Builds\ice_training_app_local_310518.apk'
+
+2018-06-07 02:55:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-07 02:56:02 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CCSDE-Book/VisitCCSDE-Book" classname="Test Cases/CCSDE-Book/VisitCCSDE-Book" status="PASSED">
+         <system-out><![CDATA[2018-06-07 02:56:02 - [TEST_CASE][PASSED] - Test Cases/CCSDE-Book/VisitCCSDE-Book: Test Cases/CCSDE-Book/VisitCCSDE-Book
+
+2018-06-07 02:56:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MainScreenEelements/CCSDE-Book'
+
+2018-06-07 02:56:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-07 02:56:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MainScreenEelements/CCSDE-Book'
+
+2018-06-07 02:56:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-07 02:56:08 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CCSDE-Book/Validate_CCSDE_BookScreen' is exist
+
+2018-06-07 02:56:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-07 02:56:08 - [MESSAGE][PASSED] - Element 'Object Repository/CCSDE-Book/Validate_CCSDE_BookScreen' is exist
+
+2018-06-07 02:56:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - customkeywordscollection.CustomKeywords.visitProgramsForPosRanking: NOT_RUN: customkeywordscollection.CustomKeywords.visitProgramsForPosRanking
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: customkeywordscollection.CustomKeywords.visitProgramsForPosRanking
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementExist: NOT_RUN: verifyElementExist
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementExist
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementExist: NOT_RUN: verifyElementExist
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementExist
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementText: NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - verifyElementExist: NOT_RUN: verifyElementExist
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementExist
+
+2018-06-07 02:56:09 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-06-07 02:56:09 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-06-07 02:56:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CCSDE-Book/ViewTVC/ViewTVC'
+
+2018-06-07 02:56:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-07 02:56:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CCSDE-Book/ViewTVC/ViewTVC'
+
+2018-06-07 02:56:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-07 02:56:11 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CCSDE-Book/ViewTVC/Validate_TVCListScreen' is exist
+
+2018-06-07 02:56:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-07 02:56:11 - [MESSAGE][PASSED] - Element 'Object Repository/CCSDE-Book/ViewTVC/Validate_TVCListScreen' is exist
+
+2018-06-07 02:56:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-07 02:56:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CCSDE-Book/ViewTVC/TVC'
+
+2018-06-07 02:56:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-07 02:56:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CCSDE-Book/ViewTVC/TVC'
+
+2018-06-07 02:56:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-07 02:56:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-07 02:56:18 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-06-07 02:56:19 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-06-07 02:56:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-07 02:56:20 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CCSDE-Book/ViewTVC/Validate_TVCListScreen' is exist
+
+2018-06-07 02:56:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-07 02:56:20 - [MESSAGE][PASSED] - Element 'Object Repository/CCSDE-Book/ViewTVC/Validate_TVCListScreen' is exist
+
+2018-06-07 02:56:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-07 02:56:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CCSDE-Book/ViewTVC/TVC_BackButton'
+
+2018-06-07 02:56:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-07 02:56:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CCSDE-Book/ViewTVC/TVC_BackButton'
+
+2018-06-07 02:56:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-07 02:56:25 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CCSDE-Book/Validate_CCSDE_BookScreen' is exist
+
+2018-06-07 02:56:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-07 02:56:25 - [MESSAGE][PASSED] - Element 'Object Repository/CCSDE-Book/Validate_CCSDE_BookScreen' is exist
+
+2018-06-07 02:56:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-07 02:56:26 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-06-07 02:56:27 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-06-07 02:56:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-07 02:56:28 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-06-07 02:56:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-07 02:56:28 - [MESSAGE][PASSED] - Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-06-07 02:56:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-07 02:56:29 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-07 02:55:34 - [TEST_SUITE][PASSED] - Sample: Test Cases/CCSDE-Book/VisitCCSDE-Book]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

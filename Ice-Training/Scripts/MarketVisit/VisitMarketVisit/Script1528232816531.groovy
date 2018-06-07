@@ -19,3 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+Mobile.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/MarketVisit'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_ProgramsScreen'), 'Programs')
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/Program'), 0)
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+

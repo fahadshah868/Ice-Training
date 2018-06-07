@@ -19,3 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/ViewPlanogram'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementText(findTestObject('ViewPlanogram/Validate_PlanogramScreen'), 'View Planogram')
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('ViewPlanogram/ViewPlanogram_BackButton'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+

@@ -23,7 +23,3 @@ Mobile.startApplication('F:\\QA_Automation\\Builds\\ice_training_app_local_31051
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-

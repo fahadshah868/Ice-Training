@@ -19,3 +19,135 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/TrainingUpdates'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.waitForElementPresent(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/DSFTrainingStats/DSFTrainingStats'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/DSFTrainingStats/Validate_DSFTrainingStats'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/DSFTrainingStats/DSFTrainingStats_BackButton'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/CapabilityChampions'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalZonalScreen'), 
+    0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/NationalChampions'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ASM'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen'), 
+    'NATIONAL CHAMPIONS')
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/NationalChampions_BackButton'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/TSE'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen'), 
+    'NATIONAL CHAMPIONS')
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/NationalChampions_BackButton'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+Mobile.pressBack()
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalZonalScreen'), 
+    0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ZonalChampions'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_CenterSouthNorthScreen'), 
+    0)
+
+MobileBuiltInKeywords.delay(1)
+
+CustomKeywords.'customkeywordscollection.CustomKeywords.visitAsmTseZoneForZonalChampions'()
+
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/CenterSouthNorthScreen_BackButton'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalZonalScreen'), 
+    0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.pressBack()
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.pressBack()
+
+MobileBuiltInKeywords.delay(1)
+
+MobileBuiltInKeywords.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen'), 0)
+
+MobileBuiltInKeywords.delay(1)
+

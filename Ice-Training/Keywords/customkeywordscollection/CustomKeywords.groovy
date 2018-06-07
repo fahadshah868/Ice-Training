@@ -29,9 +29,9 @@ import WebUiBuiltInKeywords as WebUI
 
 
 public class CustomKeywords {
-	
+
 	public static AppiumDriver<?> driver = MobileDriverFactory.getDriver()
-	
+
 	@Keyword
 	def takePictureOfSuccess(){
 		int flag = 0
@@ -97,6 +97,73 @@ public class CustomKeywords {
 					}
 				}
 			}
+		}
+	}
+	@Keyword
+	def selectShopForCompetencyTraining(int _shop){
+		driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.TextView["+_shop+"]").click()
+		Mobile.delay(1)
+	}
+	@Keyword
+	def selectShopForMarketVisit(int _shop){
+		driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.TextView["+_shop+"]").click()
+		Mobile.delay(1)
+	}
+	@Keyword
+	def visitAsmTseZoneForZonalChampions(){
+		ArrayList<MobileElement> zone = driver.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/*")
+		for(int i=1; i<=zone.size();i++){
+			driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.TextView["+i+"]").click()
+			Mobile.delay(1)
+			Mobile.callTestCase(findTestCase("Test Cases/TrainingUpdates/VisitAsmTseForZonalChampions"), null)
+			zone = driver.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/*")
+		}
+	}
+	@Keyword
+	def visitProgramsForPosRanking(){
+		ArrayList<MobileElement> programs = driver.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/*")
+		for(int i=1; i<=programs.size();i++){
+			driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+i+"]/android.widget.TextView[1]").click()
+			Mobile.delay(1)
+			Mobile.waitForElementPresent(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_ZonalRankingScreen"), 0)
+			Mobile.delay(1)
+			Mobile.verifyElementText(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_ZonalRankingScreen"), "Zonal RANKING")
+			Mobile.delay(1)
+			ArrayList<MobileElement> zone = driver.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/*")
+			for(int j=1; j<=zone.size(); j++){
+				driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout["+j+"]").click()
+				Mobile.delay(1)
+				Mobile.verifyElementText(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_RegionalScreen"), "Regional Ranking")
+				Mobile.delay(1)
+				driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]").click()
+				Mobile.delay(1)
+				Mobile.waitForElementPresent(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_ASMRankingScreen"), 0, FailureHandling.STOP_ON_FAILURE)
+				Mobile.delay(1)
+				Mobile.verifyElementText(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_ASMRankingScreen"), "ASM Ranking")
+				Mobile.delay(1)
+				driver.findElementByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[1]").click()
+				Mobile.delay(1)
+				Mobile.waitForElementPresent(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_DistributionScreen"), 0)
+				Mobile.delay(1)
+				Mobile.tap(findTestObject("Object Repository/CCSDE-Book/PosRanking/Distribution_BackButton"), 0)
+				Mobile.delay(1)
+				Mobile.verifyElementText(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_ASMRankingScreen"), "ASM Ranking")
+				Mobile.delay(1)
+				Mobile.tap(findTestObject("Object Repository/CCSDE-Book/PosRanking/AsmRanking_BackButton"), 0)
+				Mobile.delay(1)
+				Mobile.verifyElementText(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_RegionalScreen"), "Regional Ranking")
+				Mobile.delay(1)
+				Mobile.tap(findTestObject("Object Repository/CCSDE-Book/PosRanking/Regional_BackButton"), 0)
+				Mobile.delay(1)
+				Mobile.verifyElementText(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_ZonalRankingScreen"), "Zonal RANKING")
+				Mobile.delay(1)
+				zone = driver.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/*")
+			}
+			Mobile.tap(findTestObject("Object Repository/CCSDE-Book/PosRanking/ZonalRanking_BackButton"), 0)
+			Mobile.delay(1)
+			Mobile.verifyElementText(findTestObject("Object Repository/CCSDE-Book/PosRanking/Validate_ProgramsScreen"), "Programs")
+			Mobile.delay(1)
+			programs = driver.findElementsByXPath("//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/*")
 		}
 	}
 }
