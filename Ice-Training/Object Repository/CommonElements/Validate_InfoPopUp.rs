@@ -4,6 +4,12 @@
    <name>Validate_InfoPopUp</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1][count(. | //*[@class = 'android.widget.LinearLayout' and @instance = '0' and @resource-id = 'android:id/parentPanel']) = count(//*[@class = 'android.widget.LinearLayout' and @instance = '0' and @resource-id = 'android:id/parentPanel'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -133,7 +139,7 @@
       <value>343</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -27,103 +27,95 @@ MobileBuiltInKeywords.verifyElementExist(findTestObject('CCSDE-Book/Validate_CCS
 
 MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PosRanking/POSRanking'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PosRanking/POSRanking'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PosRanking/Validate_ProgramsScreen'), 'Programs')
+MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PosRanking/Validate_ProgramsScreen'), 'Programs')
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: CustomKeywords.'customkeywordscollection.CustomKeywords.visitProgramsForPosRanking'()
+CustomKeywords.'customkeywordscollection.CustomKeywords.visitProgramsForPosRanking'()
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PosRanking/Programs_BackButton'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PosRanking/Programs_BackButton'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementExist(findTestObject('CCSDE-Book/Validate_CCSDE_BookScreen'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('CCSDE-Book/Validate_CCSDE_BookScreen'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/PriceList'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/PriceList'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListOptionsScreen'), 
-    'Options')
+MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListOptionsScreen'), 'Options')
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/TradePrice'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/TradePrice'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.waitForElementPresent(findTestObject('CCSDE-Book/PriceList/Validate_PriceListDetailScreen'), 
-    0)
+MobileBuiltInKeywords.waitForElementPresent(findTestObject('CCSDE-Book/PriceList/Validate_PriceListDetailScreen'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListDetailScreen'), 
-    'PRICE LIST')
+MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListDetailScreen'), 'PRICE LIST')
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/PriceListDetailScreen_BackButton'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/PriceListDetailScreen_BackButton'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListOptionsScreen'), 
-    'Options')
+MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListOptionsScreen'), 'Options')
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/RetailPrice'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/RetailPrice'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.waitForElementPresent(findTestObject('CCSDE-Book/PriceList/Validate_PriceListDetailScreen'), 
-    0)
+MobileBuiltInKeywords.waitForElementPresent(findTestObject('CCSDE-Book/PriceList/Validate_PriceListDetailScreen'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListDetailScreen'), 
-    'PRICE LIST')
+MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListDetailScreen'), 'PRICE LIST')
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/PriceListDetailScreen_BackButton'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/PriceListDetailScreen_BackButton'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListOptionsScreen'), 
-    'Options')
+MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/PriceList/Validate_PriceListOptionsScreen'), 'Options')
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/PriceListOptions_BackButton'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/PriceList/PriceListOptions_BackButton'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementExist(findTestObject('CCSDE-Book/Validate_CCSDE_BookScreen'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('CCSDE-Book/Validate_CCSDE_BookScreen'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/CycleActivities/CycleActivities'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/CycleActivities/CycleActivities'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/CycleActivities/Validate_CycleActivitiesScreen'), 
-    'CYCLE ACTIVITES')
+MobileBuiltInKeywords.verifyElementText(findTestObject('CCSDE-Book/CycleActivities/Validate_CycleActivitiesScreen'), 'CYCLE ACTIVITES')
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/CycleActivities/CycleActivities_BackButton'), 0)
+MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/CycleActivities/CycleActivities_BackButton'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
-not_run: MobileBuiltInKeywords.verifyElementExist(findTestObject('CCSDE-Book/Validate_CCSDE_BookScreen'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('CCSDE-Book/Validate_CCSDE_BookScreen'), 0)
 
-not_run: MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.delay(1)
 
 MobileBuiltInKeywords.tap(findTestObject('CCSDE-Book/ViewTVC/ViewTVC'), 0)
 

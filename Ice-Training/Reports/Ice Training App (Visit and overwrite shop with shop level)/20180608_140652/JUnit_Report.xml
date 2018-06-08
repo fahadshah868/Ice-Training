@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ice Training App (Visit and overwrite shop with shop level)" time="1" tests="0" failures="0" errors="0">
+   <testsuite name="Ice Training App (Visit and overwrite shop with shop level)" tests="0" failures="0" errors="0" time="1" timestamp="2018-06-08 14:06:54" hostname="itcity - DESKTOP-3AG49P4" id="Test Suites/Ice Training App (Visit and overwrite shop with shop level)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Ice Training App (Visit and overwrite shop with shop level)\\20180608_140652"/>
+         <property name="logFiles" value="F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Ice Training App (Visit and overwrite shop with shop level)\\20180608_140652\\appium.log, F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Ice Training App (Visit and overwrite shop with shop level)\\20180608_140652\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="itcity - DESKTOP-3AG49P4"/>
+         <property name="hostAddress" value="192.168.3.209"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/LaunchingApp/LaunchApp" classname="Test Cases/LaunchingApp/LaunchApp" status="INCOMPLETE">
+         <system-out><![CDATA[2018-06-08 14:06:55 - [TEST_CASE][INCOMPLETE] - Test Cases/LaunchingApp/LaunchApp: null
+
+2018-06-08 14:06:55 - [TEST_STEP][INCOMPLETE] - startApplication: Starting app at: 'F:\QA_Automation\Builds\ice_training_app_local_310518.apk'
+
+2018-06-08 14:06:55 - [MESSAGE][INFO] - Starting app at: 'F:\QA_Automation\Builds\ice_training_app_local_310518.apk']]></system-out>
+         <system-err><![CDATA[2018-06-08 14:06:55 - [TEST_CASE][INCOMPLETE] - Test Cases/LaunchingApp/LaunchApp: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-08 14:06:54 - [TEST_SUITE][INCOMPLETE] - Ice Training App (Visit and overwrite shop with shop level): null]]></system-out>
+      <system-err><![CDATA[2018-06-08 14:06:54 - [TEST_SUITE][INCOMPLETE] - Ice Training App (Visit and overwrite shop with shop level): null]]></system-err>
+   </testsuite>
+</testsuites>

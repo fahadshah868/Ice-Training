@@ -4,6 +4,16 @@
    <name>RouteManagement</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1][count(. | //*[@class = 'android.widget.TextView' and @instance = '4' and (text() = 'Route Management 
+(Plans his route)' or . = 'Route Management 
+(Plans his route)') and @resource-id = 'com.training.asm:id/shop_text']) = count(//*[@class = 'android.widget.TextView' and @instance = '4' and (text() = 'Route Management 
+(Plans his route)' or . = 'Route Management 
+(Plans his route)') and @resource-id = 'com.training.asm:id/shop_text'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -141,7 +151,7 @@
       <value>83</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

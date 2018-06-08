@@ -19,3 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/LiveUpdate'), 0)
+
+MobileBuiltInKeywords.delay(1)
+

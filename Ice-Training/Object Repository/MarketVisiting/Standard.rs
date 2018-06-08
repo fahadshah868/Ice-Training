@@ -4,6 +4,12 @@
    <name>Standard</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.ListView[1]/android.widget.TextView[2][count(. | //*[@class = 'android.widget.TextView' and @instance = '2' and (text() = 'Standard' or . = 'Standard') and @resource-id = 'com.training.asm:id/spinner_title']) = count(//*[@class = 'android.widget.TextView' and @instance = '2' and (text() = 'Standard' or . = 'Standard') and @resource-id = 'com.training.asm:id/spinner_title'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -140,7 +146,7 @@
       <value>86</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
