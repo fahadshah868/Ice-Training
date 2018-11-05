@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1][count(. | //*[@class = 'android.widget.RelativeLayout' and @instance = '2' and @resource-id = 'com.training.asm:id/next_click_bar']) = count(//*[@class = 'android.widget.RelativeLayout' and @instance = '2' and @resource-id = 'com.training.asm:id/next_click_bar'])]</value>
+         <value>//*[@class = 'android.widget.RelativeLayout' and @instance = '2' and @resource-id = '${package}:id/next_click_bar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.training.asm:id/next_click_bar</value>
+      <value>${package}:id/next_click_bar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.training.asm</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -139,7 +139,7 @@
       <value>83</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

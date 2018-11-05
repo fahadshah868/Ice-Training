@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[1]/android.widget.Button[1][count(. | //*[@class = 'android.widget.Button' and @instance = '0' and (text() = 'Save Market Visit' or . = 'Save Market Visit') and @resource-id = 'com.training.asm:id/imageButton']) = count(//*[@class = 'android.widget.Button' and @instance = '0' and (text() = 'Save Market Visit' or . = 'Save Market Visit') and @resource-id = 'com.training.asm:id/imageButton'])]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[1]/android.widget.Button[1][count(. | //*[@class = 'android.widget.Button' and @instance = '0' and (text() = 'Save Market Visit' or . = 'Save Market Visit') and @resource-id = '${package}:id/imageButton']) = count(//*[@class = 'android.widget.Button' and @instance = '0' and (text() = 'Save Market Visit' or . = 'Save Market Visit') and @resource-id = '${package}:id/imageButton'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,14 +38,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.training.asm:id/imageButton</value>
+      <value>${package}:id/imageButton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.training.asm</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

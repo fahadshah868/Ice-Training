@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.ct.qa.constants.ProjectConstants
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -18,220 +20,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_TrainingStepsScreen'), 'Training Steps')
+MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_TrainingStepsScreen',[('package'):ProjectConstants.packagename]), 'Training Steps')
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/POSAssessment',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/POSAssessment'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('MarketVisiting/Validate_POSAssessmentPopUp',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/NeedImprovement',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.verifyElementExist(findTestObject('MarketVisiting/Validate_POSAssessmentPopUp'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/NeedImprovement'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/JuicesInsight'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_RemarksScreen'), 'Enter Remarks')
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/TakePictureButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonElements/Validate_CameraScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/TakePhotoButton'), 0)
-
-MobileBuiltInKeywords.delay(5)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/DoneButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_RemarksScreen'), 'Enter Remarks')
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.setText(findTestObject('MarketVisiting/RemarksTextArea'), 'Remarks', 0)
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.hideKeyboard()
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/SubmitButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonElements/Validate_InfoPopUp'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/InfoPopUp_OKButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_TrainingStepsScreen'), 'Training Steps')
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/PowderInsight'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_RemarksScreen'), 'Enter Remarks')
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/TakePictureButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonElements/Validate_CameraScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/TakePhotoButton'), 0)
-
-MobileBuiltInKeywords.delay(5)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/DoneButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_RemarksScreen'), 'Enter Remarks')
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.setText(findTestObject('MarketVisiting/RemarksTextArea'), 'Remarks', 0)
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.hideKeyboard()
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/SubmitButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonElements/Validate_InfoPopUp'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/InfoPopUp_OKButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_TrainingStepsScreen'), 'Training Steps')
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/UHTInsight'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_RemarksScreen'), 'Enter Remarks')
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/TakePictureButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonElements/Validate_CameraScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/TakePhotoButton'), 0)
-
-MobileBuiltInKeywords.delay(5)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/DoneButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_RemarksScreen'), 'Enter Remarks')
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.setText(findTestObject('MarketVisiting/RemarksTextArea'), 'Remarks', 0)
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.hideKeyboard()
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/SubmitButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonElements/Validate_InfoPopUp'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/InfoPopUp_OKButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_TrainingStepsScreen'), 'Training Steps')
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/OtherMarketInsight'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_RemarksScreen'), 'Enter Remarks')
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/TakePictureButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonElements/Validate_CameraScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/TakePhotoButton'), 0)
-
-MobileBuiltInKeywords.delay(5)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/DoneButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_RemarksScreen'), 'Enter Remarks')
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.setText(findTestObject('MarketVisiting/RemarksTextArea'), 'Remarks', 0)
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.hideKeyboard()
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/SubmitButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('CommonElements/Validate_InfoPopUp'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('CommonElements/InfoPopUp_OKButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_TrainingStepsScreen'), 'Training Steps')
-
-MobileBuiltInKeywords.delay(1)
+CustomKeywords.'com.ct.qa.keywords.MarketVisitKeywords.visitTraining'()
 

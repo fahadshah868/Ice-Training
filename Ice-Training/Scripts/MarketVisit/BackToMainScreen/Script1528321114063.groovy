@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.ct.qa.constants.ProjectConstants
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -19,23 +21,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-MobileBuiltInKeywords.verifyElementExist(findTestObject('MarketVisiting/Validate_ShopListScreen'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('MarketVisiting/Validate_ShopListScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/ShopsList_BackButton',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/ShopsList_BackButton'), 0)
+MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_ProgramsScreen',[('package'):ProjectConstants.packagename]), 'Programs')
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/Programs_BackButton',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_ProgramsScreen'), 'Programs')
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/Programs_BackButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen',[('package'):ProjectConstants.packagename]), 0)
 

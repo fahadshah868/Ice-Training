@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ice Training App With Overwrite Scenarios" time="175" tests="1" failures="0" errors="1">
+   <testsuite name="Ice Training App With Overwrite Scenarios" tests="1" failures="0" errors="1" time="175" timestamp="2018-11-05 18:08:30" hostname="Fahad Shah - DESKTOP-L12UUAD" id="Test Suites/Ice Training App With Overwrite Scenarios">
+      <properties>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Ice Training App With Overwrite Scenarios\\20181105_180828"/>
+         <property name="logFiles" value="F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Ice Training App With Overwrite Scenarios\\20181105_180828\\appium.log, F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Ice Training App With Overwrite Scenarios\\20181105_180828\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fahad Shah - DESKTOP-L12UUAD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-J110H"/>
+         <property name="hostAddress" value="192.168.3.221"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="11015a1136d0b24a"/>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="deviceOSVersion" value="4.4.4"/>
+      </properties>
+      <testcase name="Test Cases/LaunchingApp/LaunchApp" classname="Test Cases/LaunchingApp/LaunchApp" status="PASSED">
+         <system-out><![CDATA[2018-11-05 18:08:31 - [TEST_CASE][PASSED] - Test Cases/LaunchingApp/LaunchApp: Test Cases/LaunchingApp/LaunchApp
+
+2018-11-05 18:08:32 - [TEST_STEP][PASSED] - startApplication: Started app at: 'F:\QA_Automation\Builds\ice_training_app_local_310518.apk'
+
+2018-11-05 18:08:53 - [MESSAGE][PASSED] - Started app at: 'F:\QA_Automation\Builds\ice_training_app_local_310518.apk'
+
+2018-11-05 18:08:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-05 18:08:58 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CompetencyTraining/OverwriteCompetencyTraining" classname="Test Cases/CompetencyTraining/OverwriteCompetencyTraining" status="ERROR">
+         <error type="ERROR" message="Test Cases/CompetencyTraining/OverwriteCompetencyTraining FAILED because (of) (Stack trace: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElementByXPath$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps(CompetiencyTraining.groovy:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161366430.run(Script1541161366430.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps(CompetiencyTraining.groovy:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541159615752.run(Script1541159615752.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios(CompetiencyTraining.groovy:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161322763.run(Script1541161322763.groovy:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541423308423.run(TempTestSuite1541423308423.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-05 18:08:58 - [TEST_CASE][ERROR] - Test Cases/CompetencyTraining/OverwriteCompetencyTraining: Test Cases/CompetencyTraining/OverwriteCompetencyTraining FAILED because (of) (Stack trace: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElementByXPath$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps(CompetiencyTraining.groovy:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161366430.run(Script1541161366430.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps(CompetiencyTraining.groovy:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541159615752.run(Script1541159615752.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios(CompetiencyTraining.groovy:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161322763.run(Script1541161322763.groovy:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541423308423.run(TempTestSuite1541423308423.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-05 18:08:58 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:08:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:02 - [MESSAGE][PASSED] - Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:09:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MainScreenEelements/CompetencyTraining'
+
+2018-11-05 18:09:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MainScreenEelements/CompetencyTraining'
+
+2018-11-05 18:09:03 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_DistributionProductScreen' is exist
+
+2018-11-05 18:09:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:04 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_DistributionProductScreen' is exist
+
+2018-11-05 18:09:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/DistributionProduct'
+
+2018-11-05 18:09:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/DistributionProduct'
+
+2018-11-05 18:09:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_DSFScreen' are matched.
+
+2018-11-05 18:09:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_DSFScreen' are matched.
+
+2018-11-05 18:09:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/DSF'
+
+2018-11-05 18:09:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/DSF'
+
+2018-11-05 18:09:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:09:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:09:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/Program'
+
+2018-11-05 18:09:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/Program'
+
+2018-11-05 18:09:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:09:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:09:18 - [TEST_STEP][ERROR] - com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+
+2018-11-05 18:09:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_StartTrainingStepsScreen' are matched.
+
+2018-11-05 18:09:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/TakeShopFasciaPicture_ImageView'
+
+2018-11-05 18:09:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:23 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:09:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:09:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:09:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_StartTrainingStepsScreen' are matched.
+
+2018-11-05 18:09:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/VisitShop'
+
+2018-11-05 18:09:34 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitTraining: Test Cases/CompetencyTraining/VisitTraining
+
+2018-11-05 18:09:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:09:36 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps: com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps is PASSED
+
+2018-11-05 18:09:37 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitRatingOnIceSteps: Test Cases/CompetencyTraining/VisitRatingOnIceSteps
+
+2018-11-05 18:09:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:09:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:09:38 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps: com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps is PASSED
+
+2018-11-05 18:09:50 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps is PASSED
+
+2018-11-05 18:09:50 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:09:51 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:09:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:09:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:09:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitRatingOnIceSteps' successfully
+
+2018-11-05 18:09:53 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitFieldSalesCoaching: Test Cases/CompetencyTraining/VisitFieldSalesCoaching
+
+2018-11-05 18:09:53 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:09:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:09:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:09:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:09:56 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:09:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:56 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:09:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:09:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:09:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:09:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-05 18:10:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:10:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:10:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:10:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:10:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:10:07 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:10:07 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:10:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:10:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:10:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitFieldSalesCoaching' successfully
+
+2018-11-05 18:10:09 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitCapturingPictureOfSuccess: Test Cases/CompetencyTraining/VisitCapturingPictureOfSuccess
+
+2018-11-05 18:10:09 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:10:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:10 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:10:10 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess: com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:10:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:13 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:10:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:10:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:10:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:10:27 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:10:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:33 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:10:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:10:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:10:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:10:46 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:10:51 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:10:53 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:10:53 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:10:53 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:10:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:10:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:10:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitCapturingPictureOfSuccess' successfully
+
+2018-11-05 18:10:55 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitMarketIntelligence: Test Cases/CompetencyTraining/VisitMarketIntelligence
+
+2018-11-05 18:10:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:10:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:10:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:10:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:10:58 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:10:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:10:58 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:10:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:10:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:11:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:11:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:11:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:11:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:11:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:11:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:11:05 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:11:06 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:11:06 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:11:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:11:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitMarketIntelligence' successfully
+
+2018-11-05 18:11:08 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitRemarks: Test Cases/CompetencyTraining/VisitRemarks
+
+2018-11-05 18:11:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:11:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:11:09 - [TEST_STEP][PASSED] - setText: Text 'Remarks' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:11:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:11:17 - [MESSAGE][PASSED] - Text 'Remarks' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:11:17 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-05 18:11:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:11:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:11:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:11:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:11:19 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:11:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:11:19 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:11:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:11:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:11:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:11:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:11:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:11:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitRemarks' successfully
+
+2018-11-05 18:11:21 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps is PASSED
+
+2018-11-05 18:11:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitTraining' successfully
+
+2018-11-05 18:11:21 - [TEST_CASE][ERROR] - Test Cases/CompetencyTraining/OverwriteTraining: Test Cases/CompetencyTraining/OverwriteTraining FAILED because (of) (Stack trace: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElementByXPath$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps(CompetiencyTraining.groovy:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161366430.run(Script1541161366430.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps(CompetiencyTraining.groovy:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541159615752.run(Script1541159615752.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios(CompetiencyTraining.groovy:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161322763.run(Script1541161322763.groovy:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541423308423.run(TempTestSuite1541423308423.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-05 18:11:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:11:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:11:22 - [TEST_STEP][ERROR] - com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+
+2018-11-05 18:11:23 - [TEST_CASE][ERROR] - Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps: Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps FAILED because (of) (Stack trace: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElementByXPath$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps(CompetiencyTraining.groovy:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161366430.run(Script1541161366430.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps(CompetiencyTraining.groovy:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541159615752.run(Script1541159615752.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios(CompetiencyTraining.groovy:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161322763.run(Script1541161322763.groovy:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541423308423.run(TempTestSuite1541423308423.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-05 18:11:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:11:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:11:25 - [TEST_STEP][ERROR] - com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+
+2018-11-05 18:11:26 - [MESSAGE][ERROR] - An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+
+2018-11-05 18:11:26 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps' (Root cause: Call Test Case 'Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps' failed because of error(s))
+
+2018-11-05 18:11:26 - [MESSAGE][ERROR] - An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+
+2018-11-05 18:11:26 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/CompetencyTraining/OverwriteTraining' (Root cause: Call Test Case 'Test Cases/CompetencyTraining/OverwriteTraining' failed because of error(s))
+
+2018-11-05 18:11:26 - [MESSAGE][ERROR] - An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}]]></system-out>
+         <system-err><![CDATA[2018-11-05 18:08:58 - [TEST_CASE][ERROR] - Test Cases/CompetencyTraining/OverwriteCompetencyTraining: Test Cases/CompetencyTraining/OverwriteCompetencyTraining FAILED because (of) (Stack trace: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-L12UUAD', ip: '192.168.3.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: F:\QA_Automation\Builds\ice..., appActivity: com.training.asm.ui.SplashS..., appPackage: com.training.asm, appWaitActivity: com.training.asm.ui.SplashS..., appWaitPackage: com.training.asm, autoGrantPermissions: true, databaseEnabled: false, desired: {app: F:\QA_Automation\Builds\ice..., autoGrantPermissions: true, deviceName: samsung SM-J110H (Android 4..., fullReset: false, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: Android, udid: 11015a1136d0b24a}, deviceManufacturer: samsung, deviceModel: SM-J110H, deviceName: 11015a1136d0b24a, deviceScreenSize: 480x800, deviceUDID: 11015a1136d0b24a, fullReset: false, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: true, platform: ANDROID, platformName: ANDROID, platformVersion: 4.4.4, takesScreenshot: true, udid: 11015a1136d0b24a, warnings: {}, webStorageEnabled: false}
+Session ID: 835bbdf4-4f63-4524-a311-1635e7b2af03
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ExpandableListView[1]/android.widget.RelativeLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElement(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.findElementByXPath(SwipeableAndroidDriver.java:1)
+	at io.appium.java_client.MobileDriver$findElementByXPath$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps(CompetiencyTraining.groovy:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161366430.run(Script1541161366430.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps(CompetiencyTraining.groovy:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541159615752.run(Script1541159615752.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:350)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios(CompetiencyTraining.groovy:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1215)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1024)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+	at groovy.lang.DelegatingMetaClass.invokeMethod(DelegatingMetaClass.java:144)
+	at com.ct.qa.keywords.CompetiencyTraining.invokeMethod(CompetiencyTraining.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at Script1541161322763.run(Script1541161322763.groovy:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1541423308423.run(TempTestSuite1541423308423.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MarketVisit/OverwriteMarketVisit" classname="Test Cases/MarketVisit/OverwriteMarketVisit" status="INCOMPLETE">
+         <system-out><![CDATA[2018-11-05 18:11:26 - [TEST_CASE][INCOMPLETE] - Test Cases/MarketVisit/OverwriteMarketVisit: null
+
+2018-11-05 18:11:26 - [TEST_STEP][INCOMPLETE] - verifyElementExist: Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:11:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100']]></system-out>
+         <system-err><![CDATA[2018-11-05 18:11:26 - [TEST_CASE][INCOMPLETE] - Test Cases/MarketVisit/OverwriteMarketVisit: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-05 18:08:30 - [TEST_SUITE][INCOMPLETE] - Ice Training App With Overwrite Scenarios: null]]></system-out>
+      <system-err><![CDATA[2018-11-05 18:08:30 - [TEST_SUITE][INCOMPLETE] - Ice Training App With Overwrite Scenarios: null]]></system-err>
+   </testsuite>
+</testsuites>

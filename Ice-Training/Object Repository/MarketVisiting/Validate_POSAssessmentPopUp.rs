@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.training.asm</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

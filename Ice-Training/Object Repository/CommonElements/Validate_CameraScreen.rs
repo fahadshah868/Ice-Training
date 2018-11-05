@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1][count(. | //*[@class = 'android.widget.LinearLayout' and @instance = '1' and @resource-id = 'com.training.asm:id/take_photo_layout']) = count(//*[@class = 'android.widget.LinearLayout' and @instance = '1' and @resource-id = 'com.training.asm:id/take_photo_layout'])]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1][count(. | //*[@class = 'android.widget.LinearLayout' and @instance = '1' and @resource-id = '${package}:id/take_photo_layout']) = count(//*[@class = 'android.widget.LinearLayout' and @instance = '1' and @resource-id = '${package}:id/take_photo_layout'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.training.asm:id/take_photo_layout</value>
+      <value>${package}:id/take_photo_layout</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.training.asm</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

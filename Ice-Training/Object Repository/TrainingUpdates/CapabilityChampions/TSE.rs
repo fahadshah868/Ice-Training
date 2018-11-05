@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2][count(. | //*[@class = 'android.widget.Button' and @instance = '1' and @resource-id = 'com.training.asm:id/capability_trainer']) = count(//*[@class = 'android.widget.Button' and @instance = '1' and @resource-id = 'com.training.asm:id/capability_trainer'])]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2][count(. | //*[@class = 'android.widget.Button' and @instance = '1' and @resource-id = '${package}:id/capability_trainer']) = count(//*[@class = 'android.widget.Button' and @instance = '1' and @resource-id = '${package}:id/capability_trainer'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.training.asm:id/capability_trainer</value>
+      <value>${package}:id/capability_trainer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.training.asm</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

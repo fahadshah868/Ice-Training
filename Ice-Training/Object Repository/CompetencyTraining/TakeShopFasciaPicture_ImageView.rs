@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageButton[1][count(. | //*[@class = 'android.widget.ImageButton' and @instance = '1' and @resource-id = 'com.training.asm:id/onTakePicture']) = count(//*[@class = 'android.widget.ImageButton' and @instance = '1' and @resource-id = 'com.training.asm:id/onTakePicture'])]</value>
+         <value>//*[@class = 'android.widget.ImageButton' and @instance = '1' and @resource-id = '${package}:id/onTakePicture']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.training.asm:id/onTakePicture</value>
+      <value>${package}:id/onTakePicture</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.training.asm</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -139,7 +139,7 @@
       <value>225</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

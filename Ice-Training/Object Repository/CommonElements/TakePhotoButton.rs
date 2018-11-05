@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2][count(. | //*[@class = 'android.widget.Button' and @instance = '1' and (text() = 'Take Photo' or . = 'Take Photo') and @resource-id = 'com.training.asm:id/take_photo_button']) = count(//*[@class = 'android.widget.Button' and @instance = '1' and (text() = 'Take Photo' or . = 'Take Photo') and @resource-id = 'com.training.asm:id/take_photo_button'])]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[2][count(. | //*[@class = 'android.widget.Button' and @instance = '1' and (text() = 'Take Photo' or . = 'Take Photo') and @resource-id = '${package}:id/take_photo_button']) = count(//*[@class = 'android.widget.Button' and @instance = '1' and (text() = 'Take Photo' or . = 'Take Photo') and @resource-id = '${package}:id/take_photo_button'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,14 +38,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.training.asm:id/take_photo_button</value>
+      <value>${package}:id/take_photo_button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.training.asm</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

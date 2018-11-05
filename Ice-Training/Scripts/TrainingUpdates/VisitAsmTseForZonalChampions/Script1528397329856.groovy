@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.ct.qa.constants.ProjectConstants
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -19,58 +21,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ASM',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ASM'), 0)
+Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ZonalChampionsScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
-
-Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ZonalChampionsScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ZonalChampionsScreen'), 
+MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ZonalChampionsScreen',[('package'):ProjectConstants.packagename]), 
     'ZONAL CHAMPIONS')
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ZonalChampions_BackButton',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ZonalChampions_BackButton'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/TSE',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen'), 0)
+Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ZonalChampionsScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/TSE'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ZonalChampionsScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ZonalChampionsScreen'), 
+MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ZonalChampionsScreen',[('package'):ProjectConstants.packagename]), 
     'ZONAL CHAMPIONS')
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ZonalChampions_BackButton',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ZonalChampions_BackButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen',[('package'):ProjectConstants.packagename]), 0)
 
 Mobile.pressBack()
 
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_CenterSouthNorthScreen'), 
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_CenterSouthNorthScreen',[('package'):ProjectConstants.packagename]), 
     0)
-
-MobileBuiltInKeywords.delay(1)
 

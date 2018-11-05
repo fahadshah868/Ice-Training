@@ -4,26 +4,54 @@
  */
 
 
-def static "customkeywordscollection.CustomKeywords.takePictureOfSuccess"() {
-    (new customkeywordscollection.CustomKeywords()).takePictureOfSuccess()
+def static "com.ct.qa.keywords.CCSDEBookKeywords.visitProgramsForPosRanking"() {
+    (new com.ct.qa.keywords.CCSDEBookKeywords()).visitProgramsForPosRanking()
 }
 
-def static "customkeywordscollection.CustomKeywords.selectShopForCompetencyTraining"(
-    	int _shop	) {
-    (new customkeywordscollection.CustomKeywords()).selectShopForCompetencyTraining(
-        	_shop)
+def static "com.ct.qa.keywords.TrainingUpdates.visitAsmTseZoneForZonalChampions"() {
+    (new com.ct.qa.keywords.TrainingUpdates()).visitAsmTseZoneForZonalChampions()
 }
 
-def static "customkeywordscollection.CustomKeywords.selectShopForMarketVisit"(
-    	int _shop	) {
-    (new customkeywordscollection.CustomKeywords()).selectShopForMarketVisit(
-        	_shop)
+def static "com.ct.qa.keywords.MarketVisitKeywords.visitShopWithDataVerification"() {
+    (new com.ct.qa.keywords.MarketVisitKeywords()).visitShopWithDataVerification()
 }
 
-def static "customkeywordscollection.CustomKeywords.visitAsmTseZoneForZonalChampions"() {
-    (new customkeywordscollection.CustomKeywords()).visitAsmTseZoneForZonalChampions()
+def static "com.ct.qa.keywords.MarketVisitKeywords.visitShopWithOverwriteScenarios"() {
+    (new com.ct.qa.keywords.MarketVisitKeywords()).visitShopWithOverwriteScenarios()
 }
 
-def static "customkeywordscollection.CustomKeywords.visitProgramsForPosRanking"() {
-    (new customkeywordscollection.CustomKeywords()).visitProgramsForPosRanking()
+def static "com.ct.qa.keywords.MarketVisitKeywords.visitTraining"() {
+    (new com.ct.qa.keywords.MarketVisitKeywords()).visitTraining()
+}
+
+def static "com.ct.qa.keywords.MarketVisitKeywords.overwriteTraining"() {
+    (new com.ct.qa.keywords.MarketVisitKeywords()).overwriteTraining()
+}
+
+def static "com.ct.qa.keywords.CompetiencyTraining.visitShop"() {
+    (new com.ct.qa.keywords.CompetiencyTraining()).visitShop()
+}
+
+def static "com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios"() {
+    (new com.ct.qa.keywords.CompetiencyTraining()).visitShopsWithOverwriteScenarios()
+}
+
+def static "com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps"() {
+    (new com.ct.qa.keywords.CompetiencyTraining()).visitTrainingSteps()
+}
+
+def static "com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps"() {
+    (new com.ct.qa.keywords.CompetiencyTraining()).overwriteTrainingSteps()
+}
+
+def static "com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps"() {
+    (new com.ct.qa.keywords.CompetiencyTraining()).visitRatingOnIceSteps()
+}
+
+def static "com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps"() {
+    (new com.ct.qa.keywords.CompetiencyTraining()).overwriteRatingOnIceSteps()
+}
+
+def static "com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess"() {
+    (new com.ct.qa.keywords.CompetiencyTraining()).takePictureOfSuccess()
 }

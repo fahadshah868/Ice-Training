@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.ct.qa.constants.ProjectConstants
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -19,7 +21,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/LiveUpdate'), 0)
+MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/LiveUpdate',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+Mobile.verifyElementText(findTestObject('LiveUpdate/Validate_LiveFeedBackScreen',[('package'):ProjectConstants.packagename]), 'Live Feed')
+
+Mobile.tap(findTestObject('LiveUpdate/BackButton',[('package'):ProjectConstants.packagename]), 0)
+
+Mobile.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen',[('package'):ProjectConstants.packagename]), 0)
 

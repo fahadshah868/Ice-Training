@@ -1,0 +1,2115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ice Training App With Overwrite Scenarios" time="968" tests="3" failures="0" errors="0">
+   <testsuite name="Ice Training App With Overwrite Scenarios" tests="3" failures="0" errors="0" time="968" timestamp="2018-11-05 18:26:41" hostname="Fahad Shah - DESKTOP-L12UUAD" id="Test Suites/Ice Training App With Overwrite Scenarios">
+      <properties>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Ice Training App With Overwrite Scenarios\\20181105_182638"/>
+         <property name="logFiles" value="F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Ice Training App With Overwrite Scenarios\\20181105_182638\\appium.log, F:\\Git Projects\\Ice-Training\\Ice-Training\\Reports\\Ice Training App With Overwrite Scenarios\\20181105_182638\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fahad Shah - DESKTOP-L12UUAD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-J110H"/>
+         <property name="hostAddress" value="192.168.3.221"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="11015a1136d0b24a"/>
+         <property name="deviceName" value="samsung SM-J110H (Android 4.4.4)"/>
+         <property name="deviceOSVersion" value="4.4.4"/>
+      </properties>
+      <testcase name="Test Cases/LaunchingApp/LaunchApp" classname="Test Cases/LaunchingApp/LaunchApp" status="PASSED">
+         <system-out><![CDATA[2018-11-05 18:26:41 - [TEST_CASE][PASSED] - Test Cases/LaunchingApp/LaunchApp: Test Cases/LaunchingApp/LaunchApp
+
+2018-11-05 18:26:42 - [TEST_STEP][PASSED] - startApplication: Started app at: 'F:\QA_Automation\Builds\ice_training_app_local_310518.apk'
+
+2018-11-05 18:27:03 - [MESSAGE][PASSED] - Started app at: 'F:\QA_Automation\Builds\ice_training_app_local_310518.apk'
+
+2018-11-05 18:27:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-05 18:27:08 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CompetencyTraining/OverwriteCompetencyTraining" classname="Test Cases/CompetencyTraining/OverwriteCompetencyTraining" status="PASSED">
+         <system-out><![CDATA[2018-11-05 18:27:08 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteCompetencyTraining: Test Cases/CompetencyTraining/OverwriteCompetencyTraining
+
+2018-11-05 18:27:08 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:27:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:09 - [MESSAGE][PASSED] - Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:27:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MainScreenEelements/CompetencyTraining'
+
+2018-11-05 18:27:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MainScreenEelements/CompetencyTraining'
+
+2018-11-05 18:27:10 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_DistributionProductScreen' is exist
+
+2018-11-05 18:27:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:11 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_DistributionProductScreen' is exist
+
+2018-11-05 18:27:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/DistributionProduct'
+
+2018-11-05 18:27:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/DistributionProduct'
+
+2018-11-05 18:27:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_DSFScreen' are matched.
+
+2018-11-05 18:27:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_DSFScreen' are matched.
+
+2018-11-05 18:27:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/DSF'
+
+2018-11-05 18:27:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/DSF'
+
+2018-11-05 18:27:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:27:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:27:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/Program'
+
+2018-11-05 18:27:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/Program'
+
+2018-11-05 18:27:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:27:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:27:17 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios: com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios is PASSED
+
+2018-11-05 18:27:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_StartTrainingStepsScreen' are matched.
+
+2018-11-05 18:27:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/TakeShopFasciaPicture_ImageView'
+
+2018-11-05 18:27:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:22 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:27:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:27:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:27:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:27:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_StartTrainingStepsScreen' are matched.
+
+2018-11-05 18:27:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/VisitShop'
+
+2018-11-05 18:27:32 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitTraining: Test Cases/CompetencyTraining/VisitTraining
+
+2018-11-05 18:27:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:27:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:27:35 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps: com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps is PASSED
+
+2018-11-05 18:27:36 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitRatingOnIceSteps: Test Cases/CompetencyTraining/VisitRatingOnIceSteps
+
+2018-11-05 18:27:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:27:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:27:38 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps: com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps is PASSED
+
+2018-11-05 18:27:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:27:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:27:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:27:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:27:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:27:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:27:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:27:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:27:53 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps is PASSED
+
+2018-11-05 18:27:53 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:27:54 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:27:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:27:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:27:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitRatingOnIceSteps' successfully
+
+2018-11-05 18:27:55 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitFieldSalesCoaching: Test Cases/CompetencyTraining/VisitFieldSalesCoaching
+
+2018-11-05 18:27:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:27:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:27:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:27:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:27:59 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:27:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:27:59 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:27:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:27:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:28:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:28:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-05 18:28:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:28:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:28:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:28:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:28:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:28:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:28:10 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:28:10 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:28:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:28:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:28:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitFieldSalesCoaching' successfully
+
+2018-11-05 18:28:11 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitCapturingPictureOfSuccess: Test Cases/CompetencyTraining/VisitCapturingPictureOfSuccess
+
+2018-11-05 18:28:11 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:28:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:28:13 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:28:13 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess: com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:28:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:28:16 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:28:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:28:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:28:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:28:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:28:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:28:30 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:28:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:28:36 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:28:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:28:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:28:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:28:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:28:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:28:49 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:28:54 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:28:56 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:28:56 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:28:57 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:28:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:28:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:28:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitCapturingPictureOfSuccess' successfully
+
+2018-11-05 18:28:58 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitMarketIntelligence: Test Cases/CompetencyTraining/VisitMarketIntelligence
+
+2018-11-05 18:28:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:29:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:29:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:29:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:29:02 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:29:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:02 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:29:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:29:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:29:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:29:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:29:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:29:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:29:09 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:29:09 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:29:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:29:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:29:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitMarketIntelligence' successfully
+
+2018-11-05 18:29:10 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitRemarks: Test Cases/CompetencyTraining/VisitRemarks
+
+2018-11-05 18:29:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:29:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:29:12 - [TEST_STEP][PASSED] - setText: Text 'Remarks' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:29:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:22 - [MESSAGE][PASSED] - Text 'Remarks' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:29:22 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-05 18:29:22 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:29:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:29:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:29:23 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:29:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:24 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:29:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:29:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:29:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:29:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:29:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitRemarks' successfully
+
+2018-11-05 18:29:26 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps is PASSED
+
+2018-11-05 18:29:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitTraining' successfully
+
+2018-11-05 18:29:26 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteTraining: Test Cases/CompetencyTraining/OverwriteTraining
+
+2018-11-05 18:29:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:29:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:29:26 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps: com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps is PASSED
+
+2018-11-05 18:29:27 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps: Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps
+
+2018-11-05 18:29:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:29:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:29:30 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps: com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps is PASSED
+
+2018-11-05 18:29:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:29:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:29:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:29:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:29:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:29:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:29:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:29:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:29:45 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps is PASSED
+
+2018-11-05 18:29:45 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:29:46 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:29:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:29:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:29:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps' successfully
+
+2018-11-05 18:29:47 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteFieldSalesCoaching: Test Cases/CompetencyTraining/OverwriteFieldSalesCoaching
+
+2018-11-05 18:29:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:29:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:29:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:29:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:29:51 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:29:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:51 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:29:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:29:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:29:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:29:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-05 18:29:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:29:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:29:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:30:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:30:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:30:02 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:30:02 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:30:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:30:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:30:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteFieldSalesCoaching' successfully
+
+2018-11-05 18:30:03 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteCapturingPictureOfSuccess: Test Cases/CompetencyTraining/OverwriteCapturingPictureOfSuccess
+
+2018-11-05 18:30:03 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:30:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:05 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:30:05 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess: com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:30:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:08 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:30:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:30:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:30:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:30:21 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:30:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:28 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:30:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:30:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:30:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:30:40 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:30:45 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:30:47 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:30:47 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:30:47 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:30:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:30:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:30:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteCapturingPictureOfSuccess' successfully
+
+2018-11-05 18:30:49 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteMarketIntelligence: Test Cases/CompetencyTraining/OverwriteMarketIntelligence
+
+2018-11-05 18:30:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:30:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:30:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:30:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:30:50 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:30:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:52 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:30:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:30:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:30:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:30:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:30:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:30:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:30:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:30:59 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:30:59 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:30:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:31:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:31:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteMarketIntelligence' successfully
+
+2018-11-05 18:31:01 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteRemarks: Test Cases/CompetencyTraining/OverwriteRemarks
+
+2018-11-05 18:31:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:31:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:31:02 - [TEST_STEP][PASSED] - setText: Text 'Overwrite Remark' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:31:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:10 - [MESSAGE][PASSED] - Text 'Overwrite Remark' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:31:10 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-05 18:31:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:31:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:31:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:31:12 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:31:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:13 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:31:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:31:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:31:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:31:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:31:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteRemarks' successfully
+
+2018-11-05 18:31:14 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps is PASSED
+
+2018-11-05 18:31:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteTraining' successfully
+
+2018-11-05 18:31:14 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/SaveTraining: Test Cases/CompetencyTraining/SaveTraining
+
+2018-11-05 18:31:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SaveTrainingButton'
+
+2018-11-05 18:31:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SaveTrainingButton'
+
+2018-11-05 18:31:15 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_SavedShopScreen' is exist
+
+2018-11-05 18:31:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:16 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_SavedShopScreen' is exist
+
+2018-11-05 18:31:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SavedShop_BackButton'
+
+2018-11-05 18:31:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SavedShop_BackButton'
+
+2018-11-05 18:31:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:31:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:31:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/SaveTraining' successfully
+
+2018-11-05 18:31:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_StartTrainingStepsScreen' are matched.
+
+2018-11-05 18:31:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/TakeShopFasciaPicture_ImageView'
+
+2018-11-05 18:31:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:22 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:31:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:31:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:31:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:31:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_StartTrainingStepsScreen' are matched.
+
+2018-11-05 18:31:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/VisitShop'
+
+2018-11-05 18:31:33 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitTraining: Test Cases/CompetencyTraining/VisitTraining
+
+2018-11-05 18:31:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:31:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:31:34 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps: com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps is PASSED
+
+2018-11-05 18:31:36 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitRatingOnIceSteps: Test Cases/CompetencyTraining/VisitRatingOnIceSteps
+
+2018-11-05 18:31:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:31:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:31:37 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps: com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps is PASSED
+
+2018-11-05 18:31:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:31:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:31:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:31:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:31:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:31:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:31:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:31:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:31:53 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitRatingOnIceSteps is PASSED
+
+2018-11-05 18:31:53 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:31:54 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:31:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:31:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:31:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitRatingOnIceSteps' successfully
+
+2018-11-05 18:31:55 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitFieldSalesCoaching: Test Cases/CompetencyTraining/VisitFieldSalesCoaching
+
+2018-11-05 18:31:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:31:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:31:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:31:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:31:58 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:31:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:31:59 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:31:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:31:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:32:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:32:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-05 18:32:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:32:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:32:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:32:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:32:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:32:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:32:09 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:32:10 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:32:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:32:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:32:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitFieldSalesCoaching' successfully
+
+2018-11-05 18:32:11 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitCapturingPictureOfSuccess: Test Cases/CompetencyTraining/VisitCapturingPictureOfSuccess
+
+2018-11-05 18:32:11 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:32:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:32:12 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:32:12 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess: com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:32:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:32:16 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:32:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:32:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:32:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:32:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:32:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:32:29 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:32:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:32:35 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:32:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:32:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:32:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:32:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:32:47 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:32:53 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:32:55 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:32:55 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:32:55 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:32:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:32:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:32:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitCapturingPictureOfSuccess' successfully
+
+2018-11-05 18:32:57 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitMarketIntelligence: Test Cases/CompetencyTraining/VisitMarketIntelligence
+
+2018-11-05 18:32:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:32:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:32:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:32:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:33:00 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:33:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:01 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:33:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:33:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:33:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:33:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:33:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:33:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:33:07 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:33:08 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:33:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:33:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:33:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitMarketIntelligence' successfully
+
+2018-11-05 18:33:09 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/VisitRemarks: Test Cases/CompetencyTraining/VisitRemarks
+
+2018-11-05 18:33:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:33:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:33:10 - [TEST_STEP][PASSED] - setText: Text 'Remarks' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:33:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:18 - [MESSAGE][PASSED] - Text 'Remarks' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:33:18 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-05 18:33:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:33:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:33:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:33:20 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:33:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:20 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:33:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:33:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:33:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:33:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:33:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitRemarks' successfully
+
+2018-11-05 18:33:22 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitTrainingSteps is PASSED
+
+2018-11-05 18:33:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/VisitTraining' successfully
+
+2018-11-05 18:33:22 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/SaveTraining: Test Cases/CompetencyTraining/SaveTraining
+
+2018-11-05 18:33:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SaveTrainingButton'
+
+2018-11-05 18:33:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SaveTrainingButton'
+
+2018-11-05 18:33:23 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_SavedShopScreen' is exist
+
+2018-11-05 18:33:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:24 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_SavedShopScreen' is exist
+
+2018-11-05 18:33:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SavedShop_BackButton'
+
+2018-11-05 18:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SavedShop_BackButton'
+
+2018-11-05 18:33:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:33:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:33:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/SaveTraining' successfully
+
+2018-11-05 18:33:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_StartTrainingStepsScreen' are matched.
+
+2018-11-05 18:33:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/TakeShopFasciaPicture_ImageView'
+
+2018-11-05 18:33:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:30 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:33:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:33:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:33:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:33:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_StartTrainingStepsScreen' are matched.
+
+2018-11-05 18:33:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:33:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/VisitShop'
+
+2018-11-05 18:33:40 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteTraining: Test Cases/CompetencyTraining/OverwriteTraining
+
+2018-11-05 18:33:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:33:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:33:42 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps: com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps is PASSED
+
+2018-11-05 18:33:43 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps: Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps
+
+2018-11-05 18:33:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:33:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RateDSFScreen' are matched.
+
+2018-11-05 18:33:45 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps: com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps is PASSED
+
+2018-11-05 18:33:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:33:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:33:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:33:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:33:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:33:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:33:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:34:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-05 18:34:00 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.overwriteRatingOnIceSteps is PASSED
+
+2018-11-05 18:34:00 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:34:01 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:34:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:34:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:34:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteRatingOnIceSteps' successfully
+
+2018-11-05 18:34:02 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteFieldSalesCoaching: Test Cases/CompetencyTraining/OverwriteFieldSalesCoaching
+
+2018-11-05 18:34:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:34:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:34:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:34:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/FieldSalesCoachingTakePicture_ImageView'
+
+2018-11-05 18:34:06 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:34:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:06 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:34:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:34:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:34:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-05 18:34:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:34:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:34:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:34:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:34:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_FieldSalesCoachingScreen' are matched.
+
+2018-11-05 18:34:17 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:34:17 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:34:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:34:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:34:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteFieldSalesCoaching' successfully
+
+2018-11-05 18:34:18 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteCapturingPictureOfSuccess: Test Cases/CompetencyTraining/OverwriteCapturingPictureOfSuccess
+
+2018-11-05 18:34:18 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:34:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:20 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_PictureOfSuccessDetailScreen' is exist
+
+2018-11-05 18:34:20 - [TEST_STEP][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess: com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:34:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:23 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:34:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:34:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:34:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:34:37 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:34:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:43 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:34:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:34:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:34:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:34:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:34:56 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:35:02 - [MESSAGE][PASSED] - Swiped from 0,480 to 0,200
+
+2018-11-05 18:35:03 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.takePictureOfSuccess is PASSED
+
+2018-11-05 18:35:03 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:35:04 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:35:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:35:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:35:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteCapturingPictureOfSuccess' successfully
+
+2018-11-05 18:35:05 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteMarketIntelligence: Test Cases/CompetencyTraining/OverwriteMarketIntelligence
+
+2018-11-05 18:35:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:35:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:35:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:35:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/MarketIntelligenceTakePicture_ImageView'
+
+2018-11-05 18:35:09 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:35:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:09 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:35:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:35:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:35:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:35:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:35:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:35:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_MarketIntelligenceScreen' are matched.
+
+2018-11-05 18:35:16 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-11-05 18:35:16 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-11-05 18:35:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:35:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:35:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteMarketIntelligence' successfully
+
+2018-11-05 18:35:18 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/OverwriteRemarks: Test Cases/CompetencyTraining/OverwriteRemarks
+
+2018-11-05 18:35:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:35:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:35:19 - [TEST_STEP][PASSED] - setText: Text 'Overwrite Remark' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:35:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:27 - [MESSAGE][PASSED] - Text 'Overwrite Remark' has been set to element 'Object Repository/CompetencyTraining/Remarks_TextContainer'
+
+2018-11-05 18:35:27 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-05 18:35:28 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:35:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:35:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SubmitRemarksButton'
+
+2018-11-05 18:35:29 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:35:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:30 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:35:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:35:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:35:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:35:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:35:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteRemarks' successfully
+
+2018-11-05 18:35:32 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.overwriteTrainingSteps is PASSED
+
+2018-11-05 18:35:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/OverwriteTraining' successfully
+
+2018-11-05 18:35:32 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/SaveTraining: Test Cases/CompetencyTraining/SaveTraining
+
+2018-11-05 18:35:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SaveTrainingButton'
+
+2018-11-05 18:35:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SaveTrainingButton'
+
+2018-11-05 18:35:32 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_SavedShopScreen' is exist
+
+2018-11-05 18:35:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:33 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_SavedShopScreen' is exist
+
+2018-11-05 18:35:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/SavedShop_BackButton'
+
+2018-11-05 18:35:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/SavedShop_BackButton'
+
+2018-11-05 18:35:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:35:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ShopsListScreen' are matched.
+
+2018-11-05 18:35:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/SaveTraining' successfully
+
+2018-11-05 18:35:35 - [TEST_CASE][PASSED] - Test Cases/CompetencyTraining/BackToAppMainScreen: Test Cases/CompetencyTraining/BackToAppMainScreen
+
+2018-11-05 18:35:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/ShopsList_BackButton'
+
+2018-11-05 18:35:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/ShopsList_BackButton'
+
+2018-11-05 18:35:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:35:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:35:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/Programs_BackButton'
+
+2018-11-05 18:35:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/Programs_BackButton'
+
+2018-11-05 18:35:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_DSFScreen' are matched.
+
+2018-11-05 18:35:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CompetencyTraining/Validate_DSFScreen' are matched.
+
+2018-11-05 18:35:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/DSF_BackButton'
+
+2018-11-05 18:35:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/DSF_BackButton'
+
+2018-11-05 18:35:39 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/CompetencyTraining/Validate_DistributionProductScreen' is exist
+
+2018-11-05 18:35:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:39 - [MESSAGE][PASSED] - Element 'Object Repository/CompetencyTraining/Validate_DistributionProductScreen' is exist
+
+2018-11-05 18:35:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/CompetencyTraining/DistributionProduct_BackButton'
+
+2018-11-05 18:35:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CompetencyTraining/DistributionProduct_BackButton'
+
+2018-11-05 18:35:42 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:43 - [MESSAGE][PASSED] - Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:35:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CompetencyTraining/BackToAppMainScreen' successfully
+
+2018-11-05 18:35:43 - [MESSAGE][PASSED] - com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MarketVisit/OverwriteMarketVisit" classname="Test Cases/MarketVisit/OverwriteMarketVisit" status="PASSED">
+         <system-out><![CDATA[2018-11-05 18:35:43 - [TEST_CASE][PASSED] - Test Cases/MarketVisit/OverwriteMarketVisit: Test Cases/MarketVisit/OverwriteMarketVisit
+
+2018-11-05 18:35:43 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:35:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:43 - [MESSAGE][PASSED] - Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:35:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MainScreenEelements/MarketVisit'
+
+2018-11-05 18:35:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MainScreenEelements/MarketVisit'
+
+2018-11-05 18:35:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:35:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:35:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/Program'
+
+2018-11-05 18:35:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/Program'
+
+2018-11-05 18:35:46 - [TEST_STEP][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.visitShopWithOverwriteScenarios: com.ct.qa.keywords.MarketVisitKeywords.visitShopWithOverwriteScenarios is PASSED
+
+2018-11-05 18:35:48 - [TEST_CASE][PASSED] - Test Cases/MarketVisit/VisitTraining: Test Cases/MarketVisit/VisitTraining
+
+2018-11-05 18:35:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:35:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:35:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/POSAssessment'
+
+2018-11-05 18:35:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/POSAssessment'
+
+2018-11-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MarketVisiting/Validate_POSAssessmentPopUp' is exist
+
+2018-11-05 18:35:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:50 - [MESSAGE][PASSED] - Element 'Object Repository/MarketVisiting/Validate_POSAssessmentPopUp' is exist
+
+2018-11-05 18:35:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/NeedImprovement'
+
+2018-11-05 18:35:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/NeedImprovement'
+
+2018-11-05 18:35:51 - [TEST_STEP][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.visitTraining: com.ct.qa.keywords.MarketVisitKeywords.visitTraining is PASSED
+
+2018-11-05 18:35:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:35:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:35:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:55 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:35:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:35:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:36:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:36:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:36:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:36:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:14 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:36:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:36:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:36:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:36:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:36:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:18 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:36:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:36:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:36:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:36:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:36:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:36:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:36:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:37 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:36:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:36:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:36:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:36:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:36:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:44 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:36:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:36:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:36:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:36:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:36:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:37:02 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:03 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:37:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:37:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:37:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:37:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:08 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:37:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:37:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:37:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:37:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:37:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:27 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:37:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:37:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:37:28 - [MESSAGE][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.visitTraining is PASSED
+
+2018-11-05 18:37:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MarketVisit/VisitTraining' successfully
+
+2018-11-05 18:37:28 - [TEST_CASE][PASSED] - Test Cases/MarketVisit/OverwriteTraining: Test Cases/MarketVisit/OverwriteTraining
+
+2018-11-05 18:37:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:37:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:37:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/POSAssessment'
+
+2018-11-05 18:37:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/POSAssessment'
+
+2018-11-05 18:37:29 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MarketVisiting/Validate_POSAssessmentPopUp' is exist
+
+2018-11-05 18:37:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:30 - [MESSAGE][PASSED] - Element 'Object Repository/MarketVisiting/Validate_POSAssessmentPopUp' is exist
+
+2018-11-05 18:37:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/NeedImprovement'
+
+2018-11-05 18:37:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/NeedImprovement'
+
+2018-11-05 18:37:30 - [TEST_STEP][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.overwriteTraining: com.ct.qa.keywords.MarketVisitKeywords.overwriteTraining is PASSED
+
+2018-11-05 18:37:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:37:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:37:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:35 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:37:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:37:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:37:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:37:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:37:53 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:37:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:37:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:54 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:37:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:37:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:37:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:37:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:37:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:37:58 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:37:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:38:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:38:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:38:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:38:16 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:38:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:17 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:38:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:38:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:38:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:38:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:22 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:38:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:38:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:38:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:38:40 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:38:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:38:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:41 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:38:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:38:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:38:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:38:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:38:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:48 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:38:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:38:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:38:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:38:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:39:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:39:06 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:39:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:39:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:07 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:39:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:39:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:39:08 - [MESSAGE][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.overwriteTraining is PASSED
+
+2018-11-05 18:39:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MarketVisit/OverwriteTraining' successfully
+
+2018-11-05 18:39:08 - [TEST_CASE][PASSED] - Test Cases/MarketVisit/SaveTraining: Test Cases/MarketVisit/SaveTraining
+
+2018-11-05 18:39:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:39:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:39:09 - [TEST_STEP][PASSED] - swipe: Swiped from 0,700 to 0,520
+
+2018-11-05 18:39:09 - [MESSAGE][PASSED] - Swiped from 0,700 to 0,520
+
+2018-11-05 18:39:09 - [TEST_STEP][PASSED] - swipe: Swiped from 0,700 to 0,520
+
+2018-11-05 18:39:10 - [MESSAGE][PASSED] - Swiped from 0,700 to 0,520
+
+2018-11-05 18:39:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/SaveMarketVisitButton'
+
+2018-11-05 18:39:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SaveMarketVisitButton'
+
+2018-11-05 18:39:11 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MarketVisiting/Validate_ShopListScreen' is exist
+
+2018-11-05 18:39:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:12 - [MESSAGE][PASSED] - Element 'Object Repository/MarketVisiting/Validate_ShopListScreen' is exist
+
+2018-11-05 18:39:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MarketVisit/SaveTraining' successfully
+
+2018-11-05 18:39:13 - [TEST_CASE][PASSED] - Test Cases/MarketVisit/VisitTraining: Test Cases/MarketVisit/VisitTraining
+
+2018-11-05 18:39:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:39:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:39:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/POSAssessment'
+
+2018-11-05 18:39:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/POSAssessment'
+
+2018-11-05 18:39:14 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MarketVisiting/Validate_POSAssessmentPopUp' is exist
+
+2018-11-05 18:39:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:15 - [MESSAGE][PASSED] - Element 'Object Repository/MarketVisiting/Validate_POSAssessmentPopUp' is exist
+
+2018-11-05 18:39:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/NeedImprovement'
+
+2018-11-05 18:39:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/NeedImprovement'
+
+2018-11-05 18:39:16 - [TEST_STEP][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.visitTraining: com.ct.qa.keywords.MarketVisitKeywords.visitTraining is PASSED
+
+2018-11-05 18:39:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:39:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:39:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:20 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:39:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:39:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:39:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:39:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:39:37 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:39:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:39:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:39 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:39:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:39:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:39:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:39:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:39:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:43 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:39:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:39:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:39:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:39:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:39:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:40:01 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:40:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:02 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:40:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:40:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:40:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:40:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:40:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:09 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:40:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:40:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:40:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:40:26 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:40:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:40:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:27 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:40:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:40:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:40:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:40:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:40:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:32 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:40:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:40:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:40:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:40:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:40:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:40:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:40:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:51 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:40:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:40:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:40:52 - [MESSAGE][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.visitTraining is PASSED
+
+2018-11-05 18:40:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MarketVisit/VisitTraining' successfully
+
+2018-11-05 18:40:52 - [TEST_CASE][PASSED] - Test Cases/MarketVisit/SaveTraining: Test Cases/MarketVisit/SaveTraining
+
+2018-11-05 18:40:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:40:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:40:52 - [TEST_STEP][PASSED] - swipe: Swiped from 0,700 to 0,520
+
+2018-11-05 18:40:53 - [MESSAGE][PASSED] - Swiped from 0,700 to 0,520
+
+2018-11-05 18:40:53 - [TEST_STEP][PASSED] - swipe: Swiped from 0,700 to 0,520
+
+2018-11-05 18:40:54 - [MESSAGE][PASSED] - Swiped from 0,700 to 0,520
+
+2018-11-05 18:40:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/SaveMarketVisitButton'
+
+2018-11-05 18:40:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SaveMarketVisitButton'
+
+2018-11-05 18:40:55 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MarketVisiting/Validate_ShopListScreen' is exist
+
+2018-11-05 18:40:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:56 - [MESSAGE][PASSED] - Element 'Object Repository/MarketVisiting/Validate_ShopListScreen' is exist
+
+2018-11-05 18:40:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MarketVisit/SaveTraining' successfully
+
+2018-11-05 18:40:57 - [TEST_CASE][PASSED] - Test Cases/MarketVisit/OverwriteTraining: Test Cases/MarketVisit/OverwriteTraining
+
+2018-11-05 18:40:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:40:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:40:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/POSAssessment'
+
+2018-11-05 18:40:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/POSAssessment'
+
+2018-11-05 18:40:59 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MarketVisiting/Validate_POSAssessmentPopUp' is exist
+
+2018-11-05 18:40:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:40:59 - [MESSAGE][PASSED] - Element 'Object Repository/MarketVisiting/Validate_POSAssessmentPopUp' is exist
+
+2018-11-05 18:40:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/NeedImprovement'
+
+2018-11-05 18:40:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/NeedImprovement'
+
+2018-11-05 18:41:00 - [TEST_STEP][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.overwriteTraining: com.ct.qa.keywords.MarketVisitKeywords.overwriteTraining is PASSED
+
+2018-11-05 18:41:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:41:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:41:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:04 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:41:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:41:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:41:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:41:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:41:22 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:41:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:41:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:23 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:41:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:41:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:41:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:41:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:41:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:30 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:41:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:41:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:41:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:41:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:41:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:41:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:41:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:49 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:41:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:41:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:41:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:41:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:41:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:41:56 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:41:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:42:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:42:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:42:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:42:14 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:42:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:42:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:15 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:42:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:42:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:42:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:42:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/TakePictureButton'
+
+2018-11-05 18:42:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:20 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_CameraScreen' is exist
+
+2018-11-05 18:42:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/TakePhotoButton'
+
+2018-11-05 18:42:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-05 18:42:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/DoneButton'
+
+2018-11-05 18:42:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_RemarksScreen' are matched.
+
+2018-11-05 18:42:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-05 18:42:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SubmitButton'
+
+2018-11-05 18:42:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:39 - [MESSAGE][PASSED] - Element 'Object Repository/CommonElements/Validate_InfoPopUp' is exist
+
+2018-11-05 18:42:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CommonElements/InfoPopUp_OKButton'
+
+2018-11-05 18:42:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:42:40 - [MESSAGE][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.overwriteTraining is PASSED
+
+2018-11-05 18:42:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MarketVisit/OverwriteTraining' successfully
+
+2018-11-05 18:42:40 - [TEST_CASE][PASSED] - Test Cases/MarketVisit/SaveTraining: Test Cases/MarketVisit/SaveTraining
+
+2018-11-05 18:42:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:42:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_TrainingStepsScreen' are matched.
+
+2018-11-05 18:42:40 - [TEST_STEP][PASSED] - swipe: Swiped from 0,700 to 0,520
+
+2018-11-05 18:42:41 - [MESSAGE][PASSED] - Swiped from 0,700 to 0,520
+
+2018-11-05 18:42:41 - [TEST_STEP][PASSED] - swipe: Swiped from 0,700 to 0,520
+
+2018-11-05 18:42:42 - [MESSAGE][PASSED] - Swiped from 0,700 to 0,520
+
+2018-11-05 18:42:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/SaveMarketVisitButton'
+
+2018-11-05 18:42:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/SaveMarketVisitButton'
+
+2018-11-05 18:42:43 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MarketVisiting/Validate_ShopListScreen' is exist
+
+2018-11-05 18:42:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:44 - [MESSAGE][PASSED] - Element 'Object Repository/MarketVisiting/Validate_ShopListScreen' is exist
+
+2018-11-05 18:42:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MarketVisit/SaveTraining' successfully
+
+2018-11-05 18:42:44 - [TEST_CASE][PASSED] - Test Cases/MarketVisit/BackToMainScreen: Test Cases/MarketVisit/BackToMainScreen
+
+2018-11-05 18:42:44 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MarketVisiting/Validate_ShopListScreen' is exist
+
+2018-11-05 18:42:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:44 - [MESSAGE][PASSED] - Element 'Object Repository/MarketVisiting/Validate_ShopListScreen' is exist
+
+2018-11-05 18:42:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/ShopsList_BackButton'
+
+2018-11-05 18:42:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/ShopsList_BackButton'
+
+2018-11-05 18:42:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:42:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MarketVisiting/Validate_ProgramsScreen' are matched.
+
+2018-11-05 18:42:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/MarketVisiting/Programs_BackButton'
+
+2018-11-05 18:42:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MarketVisiting/Programs_BackButton'
+
+2018-11-05 18:42:49 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:42:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-11-05 18:42:49 - [MESSAGE][PASSED] - Element 'Object Repository/MainScreenEelements/Validate_ApplicationMainScreen' is exist
+
+2018-11-05 18:42:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/MarketVisit/BackToMainScreen' successfully
+
+2018-11-05 18:42:49 - [MESSAGE][PASSED] - com.ct.qa.keywords.MarketVisitKeywords.visitShopWithOverwriteScenarios is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-05 18:26:41 - [TEST_SUITE][PASSED] - Ice Training App With Overwrite Scenarios: Test Cases/MarketVisit/OverwriteMarketVisit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

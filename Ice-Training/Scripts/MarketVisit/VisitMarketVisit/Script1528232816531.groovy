@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.ct.qa.constants.ProjectConstants
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -18,20 +20,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-Mobile.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen'), 0)
+Mobile.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen',[('package'):ProjectConstants.packagename]), 0)
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/MarketVisit',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/MarketVisit'), 0)
+MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_ProgramsScreen',[('package'):ProjectConstants.packagename]), 'Programs')
 
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/Program',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.verifyElementText(findTestObject('MarketVisiting/Validate_ProgramsScreen'), 'Programs')
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
-
-MobileBuiltInKeywords.tap(findTestObject('MarketVisiting/Program'), 0)
-
-Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'com.ct.qa.keywords.MarketVisitKeywords.visitShopWithDataVerification'()
 

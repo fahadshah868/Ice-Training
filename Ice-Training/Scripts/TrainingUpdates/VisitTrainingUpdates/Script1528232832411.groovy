@@ -2,6 +2,8 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.ct.qa.constants.ProjectConstants
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -19,135 +21,73 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/TrainingUpdates'), 0)
+MobileBuiltInKeywords.tap(findTestObject('MainScreenEelements/TrainingUpdates',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.waitForElementPresent(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.waitForElementPresent(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/DSFTrainingStats/DSFTrainingStats',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/DSFTrainingStats/Validate_DSFTrainingStats',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/DSFTrainingStats/DSFTrainingStats_BackButton',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/DSFTrainingStats/DSFTrainingStats'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/CapabilityChampions',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/DSFTrainingStats/Validate_DSFTrainingStats'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/DSFTrainingStats/DSFTrainingStats_BackButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/CapabilityChampions'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalZonalScreen'), 
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalZonalScreen',[('package'):ProjectConstants.packagename]), 
     0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/NationalChampions',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/NationalChampions'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ASM',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen'), 0)
+Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ASM'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen'), 
+MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen',[('package'):ProjectConstants.packagename]), 
     'NATIONAL CHAMPIONS')
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/NationalChampions_BackButton',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/NationalChampions_BackButton'), 0)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/TSE',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen'), 0)
+Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/TSE'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-Mobile.waitForElementPresent(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen'), 
+MobileBuiltInKeywords.verifyElementText(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalChampionsScreen',[('package'):ProjectConstants.packagename]), 
     'NATIONAL CHAMPIONS')
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/NationalChampions_BackButton',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/NationalChampions_BackButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_ASMTSEScreen',[('package'):ProjectConstants.packagename]), 0)
 
 Mobile.pressBack()
 
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalZonalScreen'), 
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalZonalScreen',[('package'):ProjectConstants.packagename]), 
     0)
 
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ZonalChampions',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/ZonalChampions'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_CenterSouthNorthScreen'), 
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_CenterSouthNorthScreen',[('package'):ProjectConstants.packagename]), 
     0)
 
-MobileBuiltInKeywords.delay(1)
+CustomKeywords.'com.ct.qa.keywords.TrainingUpdates.visitAsmTseZoneForZonalChampions'()
 
-CustomKeywords.'customkeywordscollection.CustomKeywords.visitAsmTseZoneForZonalChampions'()
+MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/CenterSouthNorthScreen_BackButton',[('package'):ProjectConstants.packagename]), 0)
 
-MobileBuiltInKeywords.tap(findTestObject('TrainingUpdates/CapabilityChampions/CenterSouthNorthScreen_BackButton'), 0)
-
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalZonalScreen'), 
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/CapabilityChampions/Validate_NationalZonalScreen',[('package'):ProjectConstants.packagename]), 
     0)
-
-MobileBuiltInKeywords.delay(1)
 
 MobileBuiltInKeywords.pressBack()
 
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('TrainingUpdates/Validate_TrainingUpdatesScreen',[('package'):ProjectConstants.packagename]), 0)
 
 MobileBuiltInKeywords.pressBack()
 
-MobileBuiltInKeywords.delay(1)
-
-MobileBuiltInKeywords.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen'), 0)
-
-MobileBuiltInKeywords.delay(1)
+MobileBuiltInKeywords.verifyElementExist(findTestObject('MainScreenEelements/Validate_ApplicationMainScreen',[('package'):ProjectConstants.packagename]), 0)
 

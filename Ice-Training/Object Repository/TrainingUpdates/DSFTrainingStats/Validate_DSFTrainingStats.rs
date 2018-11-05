@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1][count(. | //*[@class = 'android.widget.GridView' and @instance = '0' and @resource-id = 'com.training.asm:id/grid']) = count(//*[@class = 'android.widget.GridView' and @instance = '0' and @resource-id = 'com.training.asm:id/grid'])]</value>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.GridView[1][count(. | //*[@class = 'android.widget.GridView' and @instance = '0' and @resource-id = '${package}:id/grid']) = count(//*[@class = 'android.widget.GridView' and @instance = '0' and @resource-id = '${package}:id/grid'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.training.asm:id/grid</value>
+      <value>${package}:id/grid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.training.asm</value>
+      <value>${package}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

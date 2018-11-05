@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Ice Training App With Overwrite Scenarios,,,2018-11-05 18:26:41,2018-11-05 18:42:49,16m - 8.940s,PASSED
+,,,,,,
+Test Cases/LaunchingApp/LaunchApp,,,2018-11-05 18:26:41,2018-11-05 18:27:08,26.460s,PASSED
+startApplication,,,2018-11-05 18:26:42,2018-11-05 18:27:03,20.873s,PASSED
+delay,,,2018-11-05 18:27:03,2018-11-05 18:27:08,5.094s,PASSED
+,,,,,,
+Test Cases/CompetencyTraining/OverwriteCompetencyTraining,,,2018-11-05 18:27:08,2018-11-05 18:35:43,8m - 34.903s,PASSED
+verifyElementExist,,,2018-11-05 18:27:08,2018-11-05 18:27:09,1.593s,PASSED
+tap,,,2018-11-05 18:27:09,2018-11-05 18:27:10,0.930s,PASSED
+verifyElementExist,,,2018-11-05 18:27:10,2018-11-05 18:27:11,0.669s,PASSED
+tap,,,2018-11-05 18:27:11,2018-11-05 18:27:12,0.699s,PASSED
+verifyElementText,,,2018-11-05 18:27:12,2018-11-05 18:27:12,0.712s,PASSED
+tap,,,2018-11-05 18:27:12,2018-11-05 18:27:13,0.571s,PASSED
+verifyElementText,,,2018-11-05 18:27:13,2018-11-05 18:27:15,1.936s,PASSED
+tap,,,2018-11-05 18:27:15,2018-11-05 18:27:16,1.009s,PASSED
+verifyElementText,,,2018-11-05 18:27:16,2018-11-05 18:27:17,0.687s,PASSED
+com.ct.qa.keywords.CompetiencyTraining.visitShopsWithOverwriteScenarios,,,2018-11-05 18:27:17,2018-11-05 18:35:43,8m - 25.860s,PASSED
+,,,,,,
+Test Cases/MarketVisit/OverwriteMarketVisit,,,2018-11-05 18:35:43,2018-11-05 18:42:49,7m - 6.969s,PASSED
+verifyElementExist,,,2018-11-05 18:35:43,2018-11-05 18:35:43,0.161s,PASSED
+tap,,,2018-11-05 18:35:43,2018-11-05 18:35:44,1.071s,PASSED
+verifyElementText,,,2018-11-05 18:35:44,2018-11-05 18:35:45,0.757s,PASSED
+tap,,,2018-11-05 18:35:45,2018-11-05 18:35:46,1.724s,PASSED
+com.ct.qa.keywords.MarketVisitKeywords.visitShopWithOverwriteScenarios,,,2018-11-05 18:35:46,2018-11-05 18:42:49,7m - 3.071s,PASSED
